@@ -1,2 +1,4 @@
 # Panda_VLA_Project
 使用mujuco平台进行pand机械臂仿真工作
+
+5.11晚上提交的版本主要针对于抓取任务中增加了place_xy_offset使得抓取batch任务成功率达到100%，因此作为一个存档记录
