@@ -1,0 +1,4 @@
+Invoking command in '/home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs': VIRTUAL_ENV_PROMPT=(ros2_mujoco) /home/cyw/.local/bin/cmake --build /home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs -- -j16 -l16
+Invoked command in '/home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs' returned '0': VIRTUAL_ENV_PROMPT=(ros2_mujoco) /home/cyw/.local/bin/cmake --build /home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs -- -j16 -l16
+Invoking command in '/home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs': VIRTUAL_ENV_PROMPT=(ros2_mujoco) /home/cyw/.local/bin/cmake --install /home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs
+Invoked command in '/home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs' returned '0': VIRTUAL_ENV_PROMPT=(ros2_mujoco) /home/cyw/.local/bin/cmake --install /home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs

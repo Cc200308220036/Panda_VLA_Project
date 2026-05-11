@@ -1,0 +1,20 @@
+[0.680s] Invoking command in '/home/cyw/panda_vla_project/ros2_ws/src/panda_mujoco_bringup': PYTHONPATH=/home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_bringup/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_mujoco) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/panda_mujoco_bringup build --build-base /home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_bringup/build install --record /home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_bringup/install.log --single-version-externally-managed install_data
+[0.823s] running egg_info
+[0.823s] writing ../../build/panda_mujoco_bringup/panda_mujoco_bringup.egg-info/PKG-INFO
+[0.823s] writing dependency_links to ../../build/panda_mujoco_bringup/panda_mujoco_bringup.egg-info/dependency_links.txt
+[0.823s] writing entry points to ../../build/panda_mujoco_bringup/panda_mujoco_bringup.egg-info/entry_points.txt
+[0.823s] writing requirements to ../../build/panda_mujoco_bringup/panda_mujoco_bringup.egg-info/requires.txt
+[0.823s] writing top-level names to ../../build/panda_mujoco_bringup/panda_mujoco_bringup.egg-info/top_level.txt
+[0.824s] reading manifest file '../../build/panda_mujoco_bringup/panda_mujoco_bringup.egg-info/SOURCES.txt'
+[0.825s] writing manifest file '../../build/panda_mujoco_bringup/panda_mujoco_bringup.egg-info/SOURCES.txt'
+[0.825s] running build
+[0.825s] running build_py
+[0.825s] running install
+[0.825s] running install_lib
+[0.826s] running install_data
+[0.826s] running install_egg_info
+[0.827s] removing '/home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_bringup/lib/python3.10/site-packages/panda_mujoco_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[0.827s] Copying ../../build/panda_mujoco_bringup/panda_mujoco_bringup.egg-info to /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_bringup/lib/python3.10/site-packages/panda_mujoco_bringup-0.0.0-py3.10.egg-info
+[0.827s] running install_scripts
+[0.839s] writing list of installed files to '/home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_bringup/install.log'
+[0.863s] Invoked command in '/home/cyw/panda_vla_project/ros2_ws/src/panda_mujoco_bringup' returned '0': PYTHONPATH=/home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_bringup/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_mujoco) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/panda_mujoco_bringup build --build-base /home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_bringup/build install --record /home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_bringup/install.log --single-version-externally-managed install_data

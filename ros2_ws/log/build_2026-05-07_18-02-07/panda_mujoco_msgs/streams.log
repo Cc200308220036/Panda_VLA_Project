@@ -1,0 +1,265 @@
+[0.008s] Invoking command in '/home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs': VIRTUAL_ENV_PROMPT=(ros2_mujoco) /home/cyw/.local/bin/cmake /home/cyw/panda_vla_project/ros2_ws/src/panda_mujoco_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs
+[0.055s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.055s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.055s]   CMake.
+[0.056s] 
+[0.056s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.056s]   to tell CMake that the project requires at least <min> but has been updated
+[0.056s]   to work with policies introduced by <max> or earlier.
+[0.056s] 
+[0.056s] [0m
+[0.059s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.186s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.187s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.189s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.210s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.227s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.528s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.830s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.225s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.227s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[1.227s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.227s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.227s]   the cmake_policy command to set the policy and suppress this warning.
+[1.227s] 
+[1.227s] Call Stack (most recent call first):
+[1.227s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.227s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.227s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[1.227s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.227s] [0m
+[1.242s] -- Found PythonInterp: /home/cyw/venvs/ros2_mujoco/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")
+[1.244s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.245s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[1.245s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.245s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.245s]   the cmake_policy command to set the policy and suppress this warning.
+[1.245s] 
+[1.245s] Call Stack (most recent call first):
+[1.245s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.245s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.245s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.245s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[1.245s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.245s] [0m
+[1.258s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[1.258s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.258s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.258s]   the cmake_policy command to set the policy and suppress this warning.
+[1.258s] 
+[1.258s] Call Stack (most recent call first):
+[1.258s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.259s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.259s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.259s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[1.259s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.259s] [0m
+[1.264s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")
+[1.264s] -- Using PYTHON_EXECUTABLE: /home/cyw/venvs/ros2_mujoco/bin/python3
+[1.264s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.264s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.278s] -- Found PythonExtra: .so
+[1.311s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.320s] -- Added test 'lint_cmake' to check CMake code style
+[1.320s] -- Added test 'xmllint' to check XML markup files
+[1.322s] -- Configuring done (1.3s)
+[1.346s] [33mCMake Warning:
+[1.346s]   Manually-specified variables were not used by the project:
+[1.346s] 
+[1.346s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[1.346s] 
+[1.346s] [0m
+[1.346s] -- Generating done (0.0s)
+[1.351s] -- Build files have been written to: /home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs
+[1.358s] Invoked command in '/home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs' returned '0': VIRTUAL_ENV_PROMPT=(ros2_mujoco) /home/cyw/.local/bin/cmake /home/cyw/panda_vla_project/ros2_ws/src/panda_mujoco_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs
+[1.359s] Invoking command in '/home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs': VIRTUAL_ENV_PROMPT=(ros2_mujoco) /home/cyw/.local/bin/cmake --build /home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs -- -j16 -l16
+[1.418s] [  3%] [1m[34mGenerating C code for ROS interfaces[0m
+[1.422s] [  6%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[1.424s] [  6%] Built target ament_cmake_python_copy_panda_mujoco_msgs
+[1.559s] [  6%] Built target panda_mujoco_msgs__cpp
+[1.563s] [ 16%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[1.563s] [ 16%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.563s] [ 16%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.565s] [ 19%] [32mBuilding C object CMakeFiles/panda_mujoco_msgs__rosidl_generator_c.dir/rosidl_generator_c/panda_mujoco_msgs/msg/detail/ee_delta_command__functions.c.o[0m
+[1.569s] running egg_info
+[1.569s] creating panda_mujoco_msgs.egg-info
+[1.569s] writing panda_mujoco_msgs.egg-info/PKG-INFO
+[1.569s] writing dependency_links to panda_mujoco_msgs.egg-info/dependency_links.txt
+[1.569s] writing top-level names to panda_mujoco_msgs.egg-info/top_level.txt
+[1.569s] writing manifest file 'panda_mujoco_msgs.egg-info/SOURCES.txt'
+[1.571s] reading manifest file 'panda_mujoco_msgs.egg-info/SOURCES.txt'
+[1.571s] writing manifest file 'panda_mujoco_msgs.egg-info/SOURCES.txt'
+[1.593s] [ 19%] Built target ament_cmake_python_build_panda_mujoco_msgs_egg
+[1.607s] [ 22%] [1m[32mLinking C shared library libpanda_mujoco_msgs__rosidl_generator_c.so[0m
+[1.627s] [ 22%] Built target panda_mujoco_msgs__rosidl_generator_c
+[1.631s] [ 32%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[1.631s] [ 32%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[1.631s] [ 32%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[1.695s] [ 35%] [32mBuilding CXX object CMakeFiles/panda_mujoco_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/panda_mujoco_msgs/msg/ee_delta_command__type_support.cpp.o[0m
+[1.702s] [ 38%] [32mBuilding CXX object CMakeFiles/panda_mujoco_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/panda_mujoco_msgs/msg/detail/ee_delta_command__type_support.cpp.o[0m
+[1.703s] [ 41%] [32mBuilding CXX object CMakeFiles/panda_mujoco_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/panda_mujoco_msgs/msg/detail/dds_fastrtps/ee_delta_command__type_support.cpp.o[0m
+[1.760s] [ 45%] [32mBuilding CXX object CMakeFiles/panda_mujoco_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/panda_mujoco_msgs/msg/ee_delta_command__type_support.cpp.o[0m
+[1.775s] [ 48%] [32mBuilding C object CMakeFiles/panda_mujoco_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/panda_mujoco_msgs/msg/detail/ee_delta_command__type_support.c.o[0m
+[1.775s] [ 51%] [32mBuilding CXX object CMakeFiles/panda_mujoco_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/panda_mujoco_msgs/msg/detail/ee_delta_command__type_support_c.cpp.o[0m
+[1.780s] [ 54%] [1m[32mLinking CXX shared library libpanda_mujoco_msgs__rosidl_typesupport_c.so[0m
+[1.797s] [ 58%] [1m[32mLinking C shared library libpanda_mujoco_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.801s] [ 58%] Built target panda_mujoco_msgs__rosidl_typesupport_c
+[1.813s] [ 58%] Built target panda_mujoco_msgs__rosidl_typesupport_introspection_c
+[1.863s] [ 61%] [1m[32mLinking CXX shared library libpanda_mujoco_msgs__rosidl_typesupport_cpp.so[0m
+[1.887s] [ 61%] Built target panda_mujoco_msgs__rosidl_typesupport_cpp
+[1.929s] [ 64%] [1m[32mLinking CXX shared library libpanda_mujoco_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[1.932s] [ 67%] [1m[32mLinking CXX shared library libpanda_mujoco_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.966s] [ 70%] [1m[32mLinking CXX shared library libpanda_mujoco_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[1.971s] [ 70%] Built target panda_mujoco_msgs__rosidl_typesupport_introspection_cpp
+[1.980s] [ 70%] Built target panda_mujoco_msgs__rosidl_typesupport_fastrtps_cpp
+[2.008s] [ 70%] Built target panda_mujoco_msgs__rosidl_typesupport_fastrtps_c
+[2.016s] [ 70%] Built target panda_mujoco_msgs
+[2.025s] [ 74%] [1m[34mGenerating Python code for ROS interfaces[0m
+[2.185s] [ 74%] Built target panda_mujoco_msgs__py
+[2.194s] [ 77%] [32mBuilding C object CMakeFiles/panda_mujoco_msgs__rosidl_generator_py.dir/rosidl_generator_py/panda_mujoco_msgs/msg/_ee_delta_command_s.c.o[0m
+[2.269s] [ 80%] [1m[32mLinking C shared library rosidl_generator_py/panda_mujoco_msgs/libpanda_mujoco_msgs__rosidl_generator_py.so[0m
+[2.294s] [ 80%] Built target panda_mujoco_msgs__rosidl_generator_py
+[2.302s] [ 83%] [32mBuilding C object CMakeFiles/panda_mujoco_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/panda_mujoco_msgs/_panda_mujoco_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.303s] [ 87%] [32mBuilding C object CMakeFiles/panda_mujoco_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/panda_mujoco_msgs/_panda_mujoco_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.303s] [ 90%] [32mBuilding C object CMakeFiles/panda_mujoco_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/panda_mujoco_msgs/_panda_mujoco_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.359s] [ 96%] [1m[32mLinking C shared library rosidl_generator_py/panda_mujoco_msgs/panda_mujoco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.359s] [ 96%] [1m[32mLinking C shared library rosidl_generator_py/panda_mujoco_msgs/panda_mujoco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.359s] [100%] [1m[32mLinking C shared library rosidl_generator_py/panda_mujoco_msgs/panda_mujoco_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.376s] [100%] Built target panda_mujoco_msgs__rosidl_typesupport_c__pyext
+[2.377s] [100%] Built target panda_mujoco_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.377s] [100%] Built target panda_mujoco_msgs__rosidl_typesupport_introspection_c__pyext
+[2.381s] Invoked command in '/home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs' returned '0': VIRTUAL_ENV_PROMPT=(ros2_mujoco) /home/cyw/.local/bin/cmake --build /home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs -- -j16 -l16
+[2.429s] Invoking command in '/home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs': VIRTUAL_ENV_PROMPT=(ros2_mujoco) /home/cyw/.local/bin/cmake --install /home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs
+[2.474s] -- Install configuration: ""
+[2.475s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/ament_index/resource_index/rosidl_interfaces/panda_mujoco_msgs
+[2.475s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs
+[2.475s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg
+[2.475s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.475s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/ee_delta_command.h
+[2.475s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail
+[2.475s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__struct.h
+[2.475s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__functions.h
+[2.475s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__functions.c
+[2.475s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__type_support.h
+[2.475s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/environment/library_path.sh
+[2.476s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/environment/library_path.dsv
+[2.476s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/libpanda_mujoco_msgs__rosidl_generator_c.so
+[2.476s] -- Set non-toolchain portion of runtime path of "/home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/libpanda_mujoco_msgs__rosidl_generator_c.so" to ""
+[2.476s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs
+[2.476s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg
+[2.476s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.476s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail
+[2.476s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__rosidl_typesupport_fastrtps_c.h
+[2.476s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/libpanda_mujoco_msgs__rosidl_typesupport_fastrtps_c.so
+[2.476s] -- Set non-toolchain portion of runtime path of "/home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/libpanda_mujoco_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[2.476s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs
+[2.476s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg
+[2.476s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.476s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail
+[2.476s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__rosidl_typesupport_introspection_c.h
+[2.476s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__type_support.c
+[2.476s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/libpanda_mujoco_msgs__rosidl_typesupport_introspection_c.so
+[2.477s] -- Set non-toolchain portion of runtime path of "/home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/libpanda_mujoco_msgs__rosidl_typesupport_introspection_c.so" to ""
+[2.477s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/libpanda_mujoco_msgs__rosidl_typesupport_c.so
+[2.477s] -- Set non-toolchain portion of runtime path of "/home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/libpanda_mujoco_msgs__rosidl_typesupport_c.so" to ""
+[2.477s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs
+[2.477s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg
+[2.477s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail
+[2.477s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__struct.hpp
+[2.477s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__builder.hpp
+[2.477s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__type_support.hpp
+[2.477s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__traits.hpp
+[2.477s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/ee_delta_command.hpp
+[2.477s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.477s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs
+[2.477s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg
+[2.477s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.477s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail
+[2.477s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/dds_fastrtps
+[2.478s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.478s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/libpanda_mujoco_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.478s] -- Set non-toolchain portion of runtime path of "/home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/libpanda_mujoco_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.478s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs
+[2.478s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg
+[2.478s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail
+[2.478s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__type_support.cpp
+[2.478s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__rosidl_typesupport_introspection_cpp.hpp
+[2.478s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/libpanda_mujoco_msgs__rosidl_typesupport_introspection_cpp.so
+[2.478s] -- Set non-toolchain portion of runtime path of "/home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/libpanda_mujoco_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.478s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/libpanda_mujoco_msgs__rosidl_typesupport_cpp.so
+[2.479s] -- Set non-toolchain portion of runtime path of "/home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/libpanda_mujoco_msgs__rosidl_typesupport_cpp.so" to ""
+[2.479s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/environment/pythonpath.sh
+[2.479s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/environment/pythonpath.dsv
+[2.479s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs-0.0.0-py3.10.egg-info
+[2.479s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.479s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.479s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.479s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.479s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs
+[2.479s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/panda_mujoco_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.479s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/_panda_mujoco_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.479s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/msg
+[2.479s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/msg/_ee_delta_command.py
+[2.480s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/msg/__init__.py
+[2.480s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/msg/_ee_delta_command_s.c
+[2.480s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/libpanda_mujoco_msgs__rosidl_generator_py.so
+[2.480s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/panda_mujoco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.480s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/panda_mujoco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.480s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/__init__.py
+[2.480s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/_panda_mujoco_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.480s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/_panda_mujoco_msgs_s.ep.rosidl_typesupport_c.c
+[2.501s] Listing '/home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs'...
+[2.501s] Compiling '/home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/__init__.py'...
+[2.501s] Listing '/home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/msg'...
+[2.501s] Compiling '/home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/msg/__init__.py'...
+[2.501s] Compiling '/home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/msg/_ee_delta_command.py'...
+[2.504s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/panda_mujoco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.504s] -- Set non-toolchain portion of runtime path of "/home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/panda_mujoco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.504s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/panda_mujoco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.505s] -- Set non-toolchain portion of runtime path of "/home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/panda_mujoco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.505s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/panda_mujoco_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.505s] -- Set non-toolchain portion of runtime path of "/home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/panda_mujoco_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.505s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/libpanda_mujoco_msgs__rosidl_generator_py.so
+[2.505s] -- Set non-toolchain portion of runtime path of "/home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/libpanda_mujoco_msgs__rosidl_generator_py.so" to ""
+[2.505s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/msg/EEDeltaCommand.idl
+[2.505s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/msg/EEDeltaCommand.msg
+[2.505s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/ament_index/resource_index/package_run_dependencies/panda_mujoco_msgs
+[2.505s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/ament_index/resource_index/parent_prefix_path/panda_mujoco_msgs
+[2.506s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/environment/ament_prefix_path.sh
+[2.506s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/environment/ament_prefix_path.dsv
+[2.506s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/environment/path.sh
+[2.506s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/environment/path.dsv
+[2.506s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/local_setup.bash
+[2.506s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/local_setup.sh
+[2.506s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/local_setup.zsh
+[2.506s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/local_setup.dsv
+[2.506s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/package.dsv
+[2.506s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/ament_index/resource_index/packages/panda_mujoco_msgs
+[2.506s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/export_panda_mujoco_msgs__rosidl_generator_cExport.cmake
+[2.506s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/export_panda_mujoco_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.506s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/export_panda_mujoco_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.506s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/export_panda_mujoco_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.507s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/panda_mujoco_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.507s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/panda_mujoco_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.507s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/panda_mujoco_msgs__rosidl_typesupport_cExport.cmake
+[2.507s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/panda_mujoco_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.507s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/export_panda_mujoco_msgs__rosidl_generator_cppExport.cmake
+[2.507s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/export_panda_mujoco_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.507s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/export_panda_mujoco_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.507s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/panda_mujoco_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.507s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/panda_mujoco_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.507s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/panda_mujoco_msgs__rosidl_typesupport_cppExport.cmake
+[2.507s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/panda_mujoco_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.508s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/export_panda_mujoco_msgs__rosidl_generator_pyExport.cmake
+[2.508s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/export_panda_mujoco_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.508s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/rosidl_cmake-extras.cmake
+[2.508s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.508s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.508s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.508s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.508s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.508s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.508s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/panda_mujoco_msgsConfig.cmake
+[2.508s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/panda_mujoco_msgsConfig-version.cmake
+[2.508s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/package.xml
+[2.510s] Invoked command in '/home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs' returned '0': VIRTUAL_ENV_PROMPT=(ros2_mujoco) /home/cyw/.local/bin/cmake --install /home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs

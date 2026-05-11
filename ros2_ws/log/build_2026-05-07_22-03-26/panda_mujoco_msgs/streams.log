@@ -1,0 +1,144 @@
+[0.015s] Invoking command in '/home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs': VIRTUAL_ENV_PROMPT=(ros2_mujoco) /home/cyw/.local/bin/cmake --build /home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs -- -j16 -l16
+[0.176s] [  3%] Built target panda_mujoco_msgs__cpp
+[0.176s] [ 12%] Built target panda_mujoco_msgs__rosidl_generator_c
+[0.176s] [ 12%] Built target ament_cmake_python_copy_panda_mujoco_msgs
+[0.176s] [ 25%] Built target panda_mujoco_msgs__rosidl_typesupport_fastrtps_cpp
+[0.176s] [ 32%] Built target panda_mujoco_msgs__rosidl_typesupport_cpp
+[0.176s] [ 41%] Built target panda_mujoco_msgs__rosidl_typesupport_introspection_cpp
+[0.176s] [ 51%] Built target panda_mujoco_msgs__rosidl_typesupport_fastrtps_c
+[0.176s] [ 61%] Built target panda_mujoco_msgs__rosidl_typesupport_introspection_c
+[0.176s] [ 70%] Built target panda_mujoco_msgs__rosidl_typesupport_c
+[0.176s] [ 70%] Built target panda_mujoco_msgs
+[0.176s] [ 74%] Built target panda_mujoco_msgs__py
+[0.176s] [ 80%] Built target panda_mujoco_msgs__rosidl_generator_py
+[0.176s] [100%] Built target panda_mujoco_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.177s] [100%] Built target panda_mujoco_msgs__rosidl_typesupport_c__pyext
+[0.177s] [100%] Built target panda_mujoco_msgs__rosidl_typesupport_introspection_c__pyext
+[0.228s] running egg_info
+[0.228s] writing panda_mujoco_msgs.egg-info/PKG-INFO
+[0.228s] writing dependency_links to panda_mujoco_msgs.egg-info/dependency_links.txt
+[0.228s] writing top-level names to panda_mujoco_msgs.egg-info/top_level.txt
+[0.229s] reading manifest file 'panda_mujoco_msgs.egg-info/SOURCES.txt'
+[0.230s] writing manifest file 'panda_mujoco_msgs.egg-info/SOURCES.txt'
+[0.244s] [100%] Built target ament_cmake_python_build_panda_mujoco_msgs_egg
+[0.333s] Invoked command in '/home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs' returned '0': VIRTUAL_ENV_PROMPT=(ros2_mujoco) /home/cyw/.local/bin/cmake --build /home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs -- -j16 -l16
+[0.381s] Invoking command in '/home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs': VIRTUAL_ENV_PROMPT=(ros2_mujoco) /home/cyw/.local/bin/cmake --install /home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs
+[0.431s] -- Install configuration: ""
+[0.431s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/ament_index/resource_index/rosidl_interfaces/panda_mujoco_msgs
+[0.431s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs
+[0.431s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg
+[0.431s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/ee_delta_command.h
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__struct.h
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__functions.h
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__functions.c
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__type_support.h
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/environment/library_path.sh
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/environment/library_path.dsv
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/libpanda_mujoco_msgs__rosidl_generator_c.so
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__rosidl_typesupport_fastrtps_c.h
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/libpanda_mujoco_msgs__rosidl_typesupport_fastrtps_c.so
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__rosidl_typesupport_introspection_c.h
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__type_support.c
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/libpanda_mujoco_msgs__rosidl_typesupport_introspection_c.so
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/libpanda_mujoco_msgs__rosidl_typesupport_c.so
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail
+[0.432s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__struct.hpp
+[0.433s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__builder.hpp
+[0.433s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__type_support.hpp
+[0.433s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__traits.hpp
+[0.433s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/ee_delta_command.hpp
+[0.433s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.433s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs
+[0.433s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg
+[0.433s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.433s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail
+[0.433s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/dds_fastrtps
+[0.433s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__rosidl_typesupport_fastrtps_cpp.hpp
+[0.433s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/libpanda_mujoco_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.433s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs
+[0.433s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg
+[0.433s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail
+[0.433s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__type_support.cpp
+[0.433s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/include/panda_mujoco_msgs/panda_mujoco_msgs/msg/detail/ee_delta_command__rosidl_typesupport_introspection_cpp.hpp
+[0.433s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/libpanda_mujoco_msgs__rosidl_typesupport_introspection_cpp.so
+[0.433s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/libpanda_mujoco_msgs__rosidl_typesupport_cpp.so
+[0.433s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/environment/pythonpath.sh
+[0.433s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/environment/pythonpath.dsv
+[0.433s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs-0.0.0-py3.10.egg-info
+[0.434s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[0.434s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.434s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.434s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[0.434s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs
+[0.434s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/panda_mujoco_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.434s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/_panda_mujoco_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.434s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/msg
+[0.434s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/msg/_ee_delta_command.py
+[0.434s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/msg/__init__.py
+[0.434s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/msg/_ee_delta_command_s.c
+[0.434s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/libpanda_mujoco_msgs__rosidl_generator_py.so
+[0.434s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/panda_mujoco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.434s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/panda_mujoco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.434s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/__init__.py
+[0.434s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/_panda_mujoco_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.434s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/_panda_mujoco_msgs_s.ep.rosidl_typesupport_c.c
+[0.456s] Listing '/home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs'...
+[0.456s] Listing '/home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/msg'...
+[0.460s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/panda_mujoco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.460s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/panda_mujoco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.460s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/python3.10/site-packages/panda_mujoco_msgs/panda_mujoco_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.460s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/lib/libpanda_mujoco_msgs__rosidl_generator_py.so
+[0.460s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/msg/EEDeltaCommand.idl
+[0.460s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/msg/EEDeltaCommand.msg
+[0.460s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/ament_index/resource_index/package_run_dependencies/panda_mujoco_msgs
+[0.460s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/ament_index/resource_index/parent_prefix_path/panda_mujoco_msgs
+[0.460s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/environment/ament_prefix_path.sh
+[0.460s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/environment/ament_prefix_path.dsv
+[0.461s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/environment/path.sh
+[0.461s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/environment/path.dsv
+[0.461s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/local_setup.bash
+[0.461s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/local_setup.sh
+[0.461s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/local_setup.zsh
+[0.461s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/local_setup.dsv
+[0.461s] -- Installing: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/package.dsv
+[0.461s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/ament_index/resource_index/packages/panda_mujoco_msgs
+[0.461s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/export_panda_mujoco_msgs__rosidl_generator_cExport.cmake
+[0.461s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/export_panda_mujoco_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.461s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/export_panda_mujoco_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.461s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/export_panda_mujoco_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.461s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/panda_mujoco_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.461s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/panda_mujoco_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.461s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/panda_mujoco_msgs__rosidl_typesupport_cExport.cmake
+[0.461s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/panda_mujoco_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.461s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/export_panda_mujoco_msgs__rosidl_generator_cppExport.cmake
+[0.461s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/export_panda_mujoco_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.461s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/export_panda_mujoco_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.461s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/panda_mujoco_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.461s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/panda_mujoco_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.462s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/panda_mujoco_msgs__rosidl_typesupport_cppExport.cmake
+[0.462s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/panda_mujoco_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.462s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/export_panda_mujoco_msgs__rosidl_generator_pyExport.cmake
+[0.462s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/export_panda_mujoco_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.462s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/rosidl_cmake-extras.cmake
+[0.462s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.462s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.462s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.462s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.462s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.462s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.462s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/panda_mujoco_msgsConfig.cmake
+[0.462s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/cmake/panda_mujoco_msgsConfig-version.cmake
+[0.462s] -- Up-to-date: /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_msgs/share/panda_mujoco_msgs/package.xml
+[0.463s] Invoked command in '/home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs' returned '0': VIRTUAL_ENV_PROMPT=(ros2_mujoco) /home/cyw/.local/bin/cmake --install /home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs

@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs/cmake_install.cmake",
+		"/home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs/panda_mujoco_msgs__py/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

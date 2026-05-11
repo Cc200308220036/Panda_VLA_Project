@@ -1,0 +1,24 @@
+[0.676s] Invoking command in '/home/cyw/panda_vla_project/ros2_ws/src/panda_mujoco_control': PYTHONPATH=/home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_control/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_mujoco) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/panda_mujoco_control build --build-base /home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_control/build install --record /home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_control/install.log --single-version-externally-managed install_data
+[0.818s] running egg_info
+[0.818s] writing ../../build/panda_mujoco_control/panda_mujoco_control.egg-info/PKG-INFO
+[0.819s] writing dependency_links to ../../build/panda_mujoco_control/panda_mujoco_control.egg-info/dependency_links.txt
+[0.819s] writing entry points to ../../build/panda_mujoco_control/panda_mujoco_control.egg-info/entry_points.txt
+[0.819s] writing requirements to ../../build/panda_mujoco_control/panda_mujoco_control.egg-info/requires.txt
+[0.819s] writing top-level names to ../../build/panda_mujoco_control/panda_mujoco_control.egg-info/top_level.txt
+[0.820s] reading manifest file '../../build/panda_mujoco_control/panda_mujoco_control.egg-info/SOURCES.txt'
+[0.821s] writing manifest file '../../build/panda_mujoco_control/panda_mujoco_control.egg-info/SOURCES.txt'
+[0.821s] running build
+[0.821s] running build_py
+[0.821s] copying panda_mujoco_control/send_joint_position.py -> /home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_control/build/lib/panda_mujoco_control
+[0.821s] running install
+[0.821s] running install_lib
+[0.822s] copying /home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_control/build/lib/panda_mujoco_control/send_joint_position.py -> /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_control/lib/python3.10/site-packages/panda_mujoco_control
+[0.822s] byte-compiling /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_control/lib/python3.10/site-packages/panda_mujoco_control/send_joint_position.py to send_joint_position.cpython-310.pyc
+[0.823s] running install_data
+[0.823s] running install_egg_info
+[0.824s] removing '/home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_control/lib/python3.10/site-packages/panda_mujoco_control-0.0.0-py3.10.egg-info' (and everything under it)
+[0.824s] Copying ../../build/panda_mujoco_control/panda_mujoco_control.egg-info to /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_control/lib/python3.10/site-packages/panda_mujoco_control-0.0.0-py3.10.egg-info
+[0.824s] running install_scripts
+[0.836s] Installing send_joint_position script to /home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_control/lib/panda_mujoco_control
+[0.836s] writing list of installed files to '/home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_control/install.log'
+[0.863s] Invoked command in '/home/cyw/panda_vla_project/ros2_ws/src/panda_mujoco_control' returned '0': PYTHONPATH=/home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cyw/panda_vla_project/ros2_ws/install/panda_mujoco_control/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_mujoco) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/panda_mujoco_control build --build-base /home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_control/build install --record /home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_control/install.log --single-version-externally-managed install_data

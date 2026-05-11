@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "panda_mujoco_msgs__py",
+		"source" : "/home/cyw/panda_vla_project/ros2_ws/build/panda_mujoco_msgs/panda_mujoco_msgs__py"
+	}
+}

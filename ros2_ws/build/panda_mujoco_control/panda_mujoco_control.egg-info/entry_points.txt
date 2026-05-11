@@ -1,0 +1,4 @@
+[console_scripts]
+send_ee_delta = panda_mujoco_control.send_ee_delta:main
+send_joint_position = panda_mujoco_control.send_joint_position:main
+

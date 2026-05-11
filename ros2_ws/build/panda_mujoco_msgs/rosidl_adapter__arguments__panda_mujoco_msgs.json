@@ -1,0 +1,6 @@
+{
+  "package_name": "panda_mujoco_msgs",
+  "non_idl_tuples": [
+    "/home/cyw/panda_vla_project/ros2_ws/src/panda_mujoco_msgs:msg/EEDeltaCommand.msg"
+  ]
+}

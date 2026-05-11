@@ -1,0 +1,3 @@
+[console_scripts]
+panda_mujoco_node = panda_mujoco_sim.panda_mujoco_node:main
+
