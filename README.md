@@ -5,3 +5,15 @@
 
 5.12
 目前已经更新了数据集录制代码，在mujoco_env/datasets下的文件，目前可以成功录制200组数据，并打包zarr文件，通过验证replay也能够成功实现
+
+规范代码结构：
+    mujoco_env/datasets
+    mujoco_env/data
+    mujoco_env/experiments
+改为
+    mujoco_env/data_collection
+    learning/datasets
+    data/raw
+    data/zarr
+    data/metadata
+    experiments

@@ -3,9 +3,9 @@ import mujoco
 import mujoco.viewer
 import argparse
 
-from envs.pick_place_env import PickPlaceEnv
-from controllers.ee_delta_controller import EEDeltaController
-from experts.scripted_pick_place import ScriptedPickPlaceExpert, PickPlaceStage
+from mujoco_env.envs.pick_place_env import PickPlaceEnv
+from mujoco_env.controllers.ee_delta_controller import EEDeltaController
+from mujoco_env.experts.scripted_pick_place import ScriptedPickPlaceExpert, PickPlaceStage
 
 
 def main():

@@ -19,8 +19,8 @@ PROJECT_ROOT = os.path.expanduser("~/panda_vla_project")
 MUJOCO_ENV_PATH = os.path.join(PROJECT_ROOT, "mujoco_env")
 sys.path.append(MUJOCO_ENV_PATH)
 
-from envs.panda_base_env import PandaBaseEnv
-from controllers.ee_delta_controller import EEDeltaController
+from mujoco_env.envs.panda_base_env import PandaBaseEnv
+from mujoco_env.controllers.ee_delta_controller import EEDeltaController
 
 
 class PandaMujocoNode(Node):

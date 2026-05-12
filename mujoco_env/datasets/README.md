@@ -20,5 +20,5 @@ build_dataset_index.py
 
 ```bash
 python datasets/collect_scripted_pick_place_hdf5.py \
-  --output_dir data/pick_place_scripted_debug_10 \
+  --output_dir data/raw/pick_place_scripted_debug_10 \
   --num_episodes 10

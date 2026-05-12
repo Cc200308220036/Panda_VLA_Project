@@ -1,2 +1,18 @@
-# data files
-mujoco_env/data/
+# data
+data/raw/
+data/zarr/
+data/metadata/
+data/videos/
+
+# experiments
+experiments/
+
+# python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# ros2 build
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/

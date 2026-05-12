@@ -387,13 +387,13 @@ def main():
     parser.add_argument(
         "--dataset_dir",
         type=str,
-        default="data/pick_place_scripted_200",
+        default="data/raw/pick_place_scripted_200",
         help="Directory containing episode_*.hdf5 files.",
     )
     parser.add_argument(
         "--output_zarr",
         type=str,
-        default="data/pick_place_scripted_200.zarr",
+        default="data/zarr/pick_place_scripted_200.zarr",
         help="Output zarr directory.",
     )
     parser.add_argument("--image_key", type=str, default="observations/images/top")

@@ -1,9 +1,9 @@
 import mujoco
 import numpy as np
 
-from envs.pick_place_env import PickPlaceEnv
-from controllers.ee_delta_controller import EEDeltaController
-from experts.scripted_pick_place import ScriptedPickPlaceExpert, PickPlaceStage
+from mujoco_env.envs.pick_place_env import PickPlaceEnv
+from mujoco_env.controllers.ee_delta_controller import EEDeltaController
+from mujoco_env.experts.scripted_pick_place import ScriptedPickPlaceExpert, PickPlaceStage
 
 """
 保存数据即操作之前，目前这个版本修改了place_xy_offset导致其成功率到达100%
@@ -172,19 +172,12 @@ def run_one(seed, render=False):
 
 
 def main():
-    import argparse
-
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--num_seeds", type=int, default=50)
-    parser.add_argument("--start_seed", type=int, default=0)
-    parser.add_argument("--render", action="store_true")
-    args = parser.parse_args()
-
+    num_trials = 50
     results = []
     failed_seeds = []
 
-    for seed in range(args.start_seed, args.start_seed + args.num_seeds):
-        result = run_one(seed, render=args.render)
+    for seed in range(num_trials):
+        result = run_one(seed)
         results.append(result)
 
         if not result["success"]:
@@ -193,27 +186,33 @@ def main():
         print(
             f"seed={seed:03d} "
             f"valid_demo={result['valid_demo']} "
+            # f"final_place={result['final_place_success']} "
+            # f"expert_done={result['expert_done']} "
+            # f"ever_grasp={result['ever_grasp']} "
+            # f"ever_place={result['ever_place']} "
+            # f"max_cube_z={result['max_cube_z']:.4f} "
+            # f"lift={result['final_cube_lift']:.4f} "
+            # f"min_xy={result['min_place_xy_dist']:.4f} "
+            # f"final_xy={result['final_xy_dist']:.4f} "
+            # f"stage={result['final_stage']} "
+            # f"steps={result['steps']} "
+            # f"reason={result['failure_reason']} "
+            # f"cube={result['final_cube']} "
+            # f"target={result['final_target']}"
             f"place_err={result['final_place_error']} "
         )
+
 
     success_rate = sum(r["success"] for r in results) / len(results)
     grasp_rate = sum(r["ever_grasp"] for r in results) / len(results)
     ever_place_rate = sum(r["ever_place"] for r in results) / len(results)
 
-    place_errs = np.stack([r["final_place_error"] for r in results], axis=0)
-
     print("=" * 80)
-    print(f"num_seeds: {args.num_seeds}")
     print(f"ever_grasp_rate: {grasp_rate:.3f}")
     print(f"ever_place_rate: {ever_place_rate:.3f}")
     print(f"final_success_rate: {success_rate:.3f}")
     print(f"failed_seeds: {failed_seeds}")
-    print("-" * 80)
-    print(f"place_err mean:   {place_errs.mean(axis=0)}")
-    print(f"place_err median: {np.median(place_errs, axis=0)}")
-    print(f"place_err std:    {place_errs.std(axis=0)}")
-    print(f"place_err max_abs:{np.max(np.abs(place_errs), axis=0)}")
-
+    print("=" * 80)
 
 
 

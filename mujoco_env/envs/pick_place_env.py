@@ -2,7 +2,7 @@ import os
 import numpy as np
 import mujoco
 
-from envs.panda_base_env import PandaBaseEnv
+from mujoco_env.envs.panda_base_env import PandaBaseEnv
 
 
 class PickPlaceEnv(PandaBaseEnv):

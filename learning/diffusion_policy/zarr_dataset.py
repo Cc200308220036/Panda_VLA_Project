@@ -5,11 +5,11 @@
 
 输入：
     zarr_path:
-        Zarr 数据路径，例如 data/pick_place_scripted_200.zarr
+        Zarr 数据路径，例如 data/zarr/pick_place_scripted_200.zarr
 
     stats_path:
         compute_zarr_stats.py 生成的统计量 JSON 文件，
-        例如 data/pick_place_scripted_200.zarr_stats.json
+        例如 data/metadata/pick_place_scripted_200.zarr_stats.json
 
     split:
         "train" 或 "val"
@@ -242,12 +242,12 @@ def main():
     parser.add_argument(
         "--zarr_path",
         type=str,
-        default="data/pick_place_scripted_200.zarr",
+        default="data/zarr/pick_place_scripted_200.zarr",
     )
     parser.add_argument(
         "--stats_path",
         type=str,
-        default="data/pick_place_scripted_200.zarr_stats.json",
+        default="data/metadata/pick_place_scripted_200.zarr_stats.json",
     )
     parser.add_argument("--split", type=str, default="train")
     parser.add_argument("--obs_horizon", type=int, default=2)

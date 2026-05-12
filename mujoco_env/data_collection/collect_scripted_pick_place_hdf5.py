@@ -17,9 +17,9 @@ if PROJECT_ROOT not in sys.path:
 
 # ==================== 标准库 / 第三方库 ====================
 
-from envs.pick_place_env import PickPlaceEnv
-from controllers.ee_delta_controller import EEDeltaController
-from experts.scripted_pick_place import ScriptedPickPlaceExpert, PickPlaceStage
+from mujoco_env.envs.pick_place_env import PickPlaceEnv
+from mujoco_env.controllers.ee_delta_controller import EEDeltaController
+from mujoco_env.experts.scripted_pick_place import ScriptedPickPlaceExpert, PickPlaceStage
 
 """
 用当前成功链路采集 HDF5 demo
@@ -408,7 +408,7 @@ def save_episode_hdf5(path, episode):
 def main():
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("--output_dir", type=str, default="data/pick_place_scripted_debug_10")
+    parser.add_argument("--output_dir", type=str, default="data/raw/pick_place_scripted_debug_10")
     parser.add_argument("--num_episodes", type=int, default=10)
     parser.add_argument("--start_seed", type=int, default=0)
     parser.add_argument("--max_seed_trials", type=int, default=100000)

@@ -5,12 +5,12 @@
 
 输入：
     --zarr_path:
-        Zarr 数据集路径，例如 data/pick_place_scripted_200.zarr
+        Zarr 数据集路径，例如 data/zarr/pick_place_scripted_200.zarr
 
     --output:
         统计量 JSON 输出路径。
         如果不指定，默认输出到：
-        data/pick_place_scripted_200.zarr_stats.json
+        data/metadata/pick_place_scripted_200.zarr_stats.json
 
     --val_ratio:
         验证集 episode 比例，默认 0.1
@@ -139,7 +139,7 @@ def main():
     parser.add_argument(
         "--zarr_path",
         type=str,
-        default="data/pick_place_scripted_200.zarr",
+        default="data/zarr/pick_place_scripted_200.zarr",
     )
     parser.add_argument(
         "--output",

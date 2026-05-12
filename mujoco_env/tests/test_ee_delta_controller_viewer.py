@@ -3,8 +3,8 @@ import numpy as np
 import mujoco
 import mujoco.viewer
 
-from envs.pick_place_env import PickPlaceEnv
-from controllers.ee_delta_controller import EEDeltaController
+from mujoco_env.envs.pick_place_env import PickPlaceEnv
+from mujoco_env.controllers.ee_delta_controller import EEDeltaController
 
 
 def make_action(step):

@@ -1,0 +1,2820 @@
+{
+  "dataset_dir": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200",
+  "output_zarr": "/home/cyw/panda_vla_project/data/zarr/pick_place_scripted_200.zarr",
+  "num_episodes": 200,
+  "total_steps": 121918,
+  "image_key": "data/image",
+  "state_key": "data/robot_state",
+  "action_key": "data/action",
+  "episode_ends_key": "meta/episode_ends",
+  "image_frame_shape": [
+    224,
+    224,
+    3
+  ],
+  "state_dim": 23,
+  "action_dim": 7,
+  "episodes": [
+    {
+      "episode_id": 0,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000000.hdf5",
+      "start": 0,
+      "end": 621,
+      "num_steps": 621,
+      "seed": 0,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.006734073162078857,
+        0.003148883581161499
+      ]
+    },
+    {
+      "episode_id": 1,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000001.hdf5",
+      "start": 621,
+      "end": 1248,
+      "num_steps": 627,
+      "seed": 1,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0011957287788391113,
+        0.0009049847722053528
+      ]
+    },
+    {
+      "episode_id": 2,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000002.hdf5",
+      "start": 1248,
+      "end": 1803,
+      "num_steps": 555,
+      "seed": 2,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.013989090919494629,
+        -0.0034804344177246094
+      ]
+    },
+    {
+      "episode_id": 3,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000003.hdf5",
+      "start": 1803,
+      "end": 2371,
+      "num_steps": 568,
+      "seed": 3,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.01587200164794922,
+        -0.004386149346828461
+      ]
+    },
+    {
+      "episode_id": 4,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000004.hdf5",
+      "start": 2371,
+      "end": 2990,
+      "num_steps": 619,
+      "seed": 4,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.005055606365203857,
+        -0.0028415173292160034
+      ]
+    },
+    {
+      "episode_id": 5,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000005.hdf5",
+      "start": 2990,
+      "end": 3548,
+      "num_steps": 558,
+      "seed": 5,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0228424072265625,
+        -0.00764068216085434
+      ]
+    },
+    {
+      "episode_id": 6,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000006.hdf5",
+      "start": 3548,
+      "end": 4169,
+      "num_steps": 621,
+      "seed": 6,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.007736384868621826,
+        -0.0015657171607017517
+      ]
+    },
+    {
+      "episode_id": 7,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000007.hdf5",
+      "start": 4169,
+      "end": 4735,
+      "num_steps": 566,
+      "seed": 7,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.020325541496276855,
+        -0.0009631216526031494
+      ]
+    },
+    {
+      "episode_id": 8,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000008.hdf5",
+      "start": 4735,
+      "end": 5338,
+      "num_steps": 603,
+      "seed": 8,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.017945587635040283,
+        -0.005087651312351227
+      ]
+    },
+    {
+      "episode_id": 9,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000009.hdf5",
+      "start": 5338,
+      "end": 6009,
+      "num_steps": 671,
+      "seed": 9,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.0018432140350341797,
+        0.007526680827140808
+      ]
+    },
+    {
+      "episode_id": 10,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000010.hdf5",
+      "start": 6009,
+      "end": 6658,
+      "num_steps": 649,
+      "seed": 10,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.02471250295639038,
+        0.010972455143928528
+      ]
+    },
+    {
+      "episode_id": 11,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000011.hdf5",
+      "start": 6658,
+      "end": 7190,
+      "num_steps": 532,
+      "seed": 11,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0275762677192688,
+        -0.007706455886363983
+      ]
+    },
+    {
+      "episode_id": 12,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000012.hdf5",
+      "start": 7190,
+      "end": 7786,
+      "num_steps": 596,
+      "seed": 12,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.005512058734893799,
+        -0.0026002824306488037
+      ]
+    },
+    {
+      "episode_id": 13,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000013.hdf5",
+      "start": 7786,
+      "end": 8344,
+      "num_steps": 558,
+      "seed": 13,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.018191933631896973,
+        -0.008688375353813171
+      ]
+    },
+    {
+      "episode_id": 14,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000014.hdf5",
+      "start": 8344,
+      "end": 8989,
+      "num_steps": 645,
+      "seed": 14,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.007842719554901123,
+        0.007655680179595947
+      ]
+    },
+    {
+      "episode_id": 15,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000015.hdf5",
+      "start": 8989,
+      "end": 9612,
+      "num_steps": 623,
+      "seed": 15,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.0031539201736450195,
+        -0.0006398707628250122
+      ]
+    },
+    {
+      "episode_id": 16,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000016.hdf5",
+      "start": 9612,
+      "end": 10298,
+      "num_steps": 686,
+      "seed": 16,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.028636038303375244,
+        -0.004578709602355957
+      ]
+    },
+    {
+      "episode_id": 17,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000017.hdf5",
+      "start": 10298,
+      "end": 10890,
+      "num_steps": 592,
+      "seed": 17,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.009253144264221191,
+        0.0019668936729431152
+      ]
+    },
+    {
+      "episode_id": 18,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000018.hdf5",
+      "start": 10890,
+      "end": 11522,
+      "num_steps": 632,
+      "seed": 18,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.022923529148101807,
+        -0.004555344581604004
+      ]
+    },
+    {
+      "episode_id": 19,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000019.hdf5",
+      "start": 11522,
+      "end": 12142,
+      "num_steps": 620,
+      "seed": 19,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0019071698188781738,
+        0.002738848328590393
+      ]
+    },
+    {
+      "episode_id": 20,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000020.hdf5",
+      "start": 12142,
+      "end": 12745,
+      "num_steps": 603,
+      "seed": 20,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.006920278072357178,
+        0.004311501979827881
+      ]
+    },
+    {
+      "episode_id": 21,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000021.hdf5",
+      "start": 12745,
+      "end": 13311,
+      "num_steps": 566,
+      "seed": 21,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.010053455829620361,
+        -0.0014718472957611084
+      ]
+    },
+    {
+      "episode_id": 22,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000022.hdf5",
+      "start": 13311,
+      "end": 13962,
+      "num_steps": 651,
+      "seed": 22,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.0034016966819763184,
+        0.0076055824756622314
+      ]
+    },
+    {
+      "episode_id": 23,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000023.hdf5",
+      "start": 13962,
+      "end": 14523,
+      "num_steps": 561,
+      "seed": 23,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.02275019884109497,
+        -0.003809988498687744
+      ]
+    },
+    {
+      "episode_id": 24,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000024.hdf5",
+      "start": 14523,
+      "end": 15141,
+      "num_steps": 618,
+      "seed": 24,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.005515635013580322,
+        -0.002661190927028656
+      ]
+    },
+    {
+      "episode_id": 25,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000025.hdf5",
+      "start": 15141,
+      "end": 15826,
+      "num_steps": 685,
+      "seed": 25,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.003458678722381592,
+        0.005810841917991638
+      ]
+    },
+    {
+      "episode_id": 26,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000026.hdf5",
+      "start": 15826,
+      "end": 16429,
+      "num_steps": 603,
+      "seed": 26,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0020630955696105957,
+        -0.001911848783493042
+      ]
+    },
+    {
+      "episode_id": 27,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000027.hdf5",
+      "start": 16429,
+      "end": 16991,
+      "num_steps": 562,
+      "seed": 27,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.025530338287353516,
+        -0.00486794114112854
+      ]
+    },
+    {
+      "episode_id": 28,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000028.hdf5",
+      "start": 16991,
+      "end": 17662,
+      "num_steps": 671,
+      "seed": 28,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.0026549696922302246,
+        0.00779762864112854
+      ]
+    },
+    {
+      "episode_id": 29,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000029.hdf5",
+      "start": 17662,
+      "end": 18246,
+      "num_steps": 584,
+      "seed": 29,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.011344313621520996,
+        -0.001862950623035431
+      ]
+    },
+    {
+      "episode_id": 30,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000030.hdf5",
+      "start": 18246,
+      "end": 18814,
+      "num_steps": 568,
+      "seed": 30,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.02313607931137085,
+        -0.00509895384311676
+      ]
+    },
+    {
+      "episode_id": 31,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000031.hdf5",
+      "start": 18814,
+      "end": 19387,
+      "num_steps": 573,
+      "seed": 31,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.02424710988998413,
+        -0.0052360594272613525
+      ]
+    },
+    {
+      "episode_id": 32,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000032.hdf5",
+      "start": 19387,
+      "end": 20057,
+      "num_steps": 670,
+      "seed": 32,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.01217031478881836,
+        0.0072058141231536865
+      ]
+    },
+    {
+      "episode_id": 33,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000033.hdf5",
+      "start": 20057,
+      "end": 20692,
+      "num_steps": 635,
+      "seed": 33,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.006697416305541992,
+        0.003399759531021118
+      ]
+    },
+    {
+      "episode_id": 34,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000034.hdf5",
+      "start": 20692,
+      "end": 21361,
+      "num_steps": 669,
+      "seed": 34,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.01077491044998169,
+        0.009592205286026001
+      ]
+    },
+    {
+      "episode_id": 35,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000035.hdf5",
+      "start": 21361,
+      "end": 21978,
+      "num_steps": 617,
+      "seed": 35,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.006632208824157715,
+        0.004469379782676697
+      ]
+    },
+    {
+      "episode_id": 36,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000036.hdf5",
+      "start": 21978,
+      "end": 22607,
+      "num_steps": 629,
+      "seed": 36,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.006376206874847412,
+        0.0038674622774124146
+      ]
+    },
+    {
+      "episode_id": 37,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000037.hdf5",
+      "start": 22607,
+      "end": 23236,
+      "num_steps": 629,
+      "seed": 37,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.00048810243606567383,
+        -0.0024249255657196045
+      ]
+    },
+    {
+      "episode_id": 38,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000038.hdf5",
+      "start": 23236,
+      "end": 23901,
+      "num_steps": 665,
+      "seed": 38,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.03227204084396362,
+        -0.008876308798789978
+      ]
+    },
+    {
+      "episode_id": 39,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000039.hdf5",
+      "start": 23901,
+      "end": 24460,
+      "num_steps": 559,
+      "seed": 39,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.01368623971939087,
+        -0.001988522708415985
+      ]
+    },
+    {
+      "episode_id": 40,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000040.hdf5",
+      "start": 24460,
+      "end": 25044,
+      "num_steps": 584,
+      "seed": 40,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.015418291091918945,
+        -0.0015677809715270996
+      ]
+    },
+    {
+      "episode_id": 41,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000041.hdf5",
+      "start": 25044,
+      "end": 25665,
+      "num_steps": 621,
+      "seed": 41,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.027481794357299805,
+        -0.005492359399795532
+      ]
+    },
+    {
+      "episode_id": 42,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000042.hdf5",
+      "start": 25665,
+      "end": 26287,
+      "num_steps": 622,
+      "seed": 42,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.001807093620300293,
+        0.0058199018239974976
+      ]
+    },
+    {
+      "episode_id": 43,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000043.hdf5",
+      "start": 26287,
+      "end": 26908,
+      "num_steps": 621,
+      "seed": 43,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.002890646457672119,
+        -0.0011938586831092834
+      ]
+    },
+    {
+      "episode_id": 44,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000044.hdf5",
+      "start": 26908,
+      "end": 27455,
+      "num_steps": 547,
+      "seed": 44,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.023321211338043213,
+        -0.00548216700553894
+      ]
+    },
+    {
+      "episode_id": 45,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000045.hdf5",
+      "start": 27455,
+      "end": 28085,
+      "num_steps": 630,
+      "seed": 45,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0019508004188537598,
+        0.0034372955560684204
+      ]
+    },
+    {
+      "episode_id": 46,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000046.hdf5",
+      "start": 28085,
+      "end": 28738,
+      "num_steps": 653,
+      "seed": 46,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.03451269865036011,
+        -0.007230490446090698
+      ]
+    },
+    {
+      "episode_id": 47,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000047.hdf5",
+      "start": 28738,
+      "end": 29354,
+      "num_steps": 616,
+      "seed": 47,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.022101879119873047,
+        -0.0033631622791290283
+      ]
+    },
+    {
+      "episode_id": 48,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000048.hdf5",
+      "start": 29354,
+      "end": 29959,
+      "num_steps": 605,
+      "seed": 48,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.007774949073791504,
+        0.0022512227296829224
+      ]
+    },
+    {
+      "episode_id": 49,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000049.hdf5",
+      "start": 29959,
+      "end": 30641,
+      "num_steps": 682,
+      "seed": 49,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.031064987182617188,
+        -0.004773333668708801
+      ]
+    },
+    {
+      "episode_id": 50,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000050.hdf5",
+      "start": 30641,
+      "end": 31202,
+      "num_steps": 561,
+      "seed": 50,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.024125277996063232,
+        -0.004613354802131653
+      ]
+    },
+    {
+      "episode_id": 51,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000051.hdf5",
+      "start": 31202,
+      "end": 31867,
+      "num_steps": 665,
+      "seed": 51,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.031429290771484375,
+        -0.005622684955596924
+      ]
+    },
+    {
+      "episode_id": 52,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000052.hdf5",
+      "start": 31867,
+      "end": 32425,
+      "num_steps": 558,
+      "seed": 52,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.011165320873260498,
+        -0.0025697126984596252
+      ]
+    },
+    {
+      "episode_id": 53,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000053.hdf5",
+      "start": 32425,
+      "end": 33056,
+      "num_steps": 631,
+      "seed": 53,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0006633400917053223,
+        0.004651919007301331
+      ]
+    },
+    {
+      "episode_id": 54,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000054.hdf5",
+      "start": 33056,
+      "end": 33639,
+      "num_steps": 583,
+      "seed": 54,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.012592017650604248,
+        -0.005363598465919495
+      ]
+    },
+    {
+      "episode_id": 55,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000055.hdf5",
+      "start": 33639,
+      "end": 34282,
+      "num_steps": 643,
+      "seed": 55,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.006690621376037598,
+        0.00893525779247284
+      ]
+    },
+    {
+      "episode_id": 56,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000056.hdf5",
+      "start": 34282,
+      "end": 34892,
+      "num_steps": 610,
+      "seed": 56,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.00793236494064331,
+        -0.0015427693724632263
+      ]
+    },
+    {
+      "episode_id": 57,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000057.hdf5",
+      "start": 34892,
+      "end": 35501,
+      "num_steps": 609,
+      "seed": 57,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.008973121643066406,
+        0.0021908581256866455
+      ]
+    },
+    {
+      "episode_id": 58,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000058.hdf5",
+      "start": 35501,
+      "end": 36090,
+      "num_steps": 589,
+      "seed": 58,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.010976195335388184,
+        -0.004797361791133881
+      ]
+    },
+    {
+      "episode_id": 59,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000059.hdf5",
+      "start": 36090,
+      "end": 36678,
+      "num_steps": 588,
+      "seed": 59,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.016832351684570312,
+        0.00175417959690094
+      ]
+    },
+    {
+      "episode_id": 60,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000060.hdf5",
+      "start": 36678,
+      "end": 37397,
+      "num_steps": 719,
+      "seed": 60,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.02601146697998047,
+        -0.001964002847671509
+      ]
+    },
+    {
+      "episode_id": 61,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000061.hdf5",
+      "start": 37397,
+      "end": 38095,
+      "num_steps": 698,
+      "seed": 61,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.005956113338470459,
+        0.009761378169059753
+      ]
+    },
+    {
+      "episode_id": 62,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000062.hdf5",
+      "start": 38095,
+      "end": 38713,
+      "num_steps": 618,
+      "seed": 62,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.001961827278137207,
+        0.007098972797393799
+      ]
+    },
+    {
+      "episode_id": 63,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000063.hdf5",
+      "start": 38713,
+      "end": 39290,
+      "num_steps": 577,
+      "seed": 63,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.015228807926177979,
+        -0.0034273862838745117
+      ]
+    },
+    {
+      "episode_id": 64,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000064.hdf5",
+      "start": 39290,
+      "end": 39987,
+      "num_steps": 697,
+      "seed": 64,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.02529609203338623,
+        -0.006798043847084045
+      ]
+    },
+    {
+      "episode_id": 65,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000065.hdf5",
+      "start": 39987,
+      "end": 40562,
+      "num_steps": 575,
+      "seed": 65,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.02265864610671997,
+        -0.006048619747161865
+      ]
+    },
+    {
+      "episode_id": 66,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000066.hdf5",
+      "start": 40562,
+      "end": 41122,
+      "num_steps": 560,
+      "seed": 66,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.014590442180633545,
+        -0.00029299408197402954
+      ]
+    },
+    {
+      "episode_id": 67,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000067.hdf5",
+      "start": 41122,
+      "end": 41704,
+      "num_steps": 582,
+      "seed": 67,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.020844697952270508,
+        -0.0038069114089012146
+      ]
+    },
+    {
+      "episode_id": 68,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000068.hdf5",
+      "start": 41704,
+      "end": 42292,
+      "num_steps": 588,
+      "seed": 68,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.019440174102783203,
+        -0.002164095640182495
+      ]
+    },
+    {
+      "episode_id": 69,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000069.hdf5",
+      "start": 42292,
+      "end": 42883,
+      "num_steps": 591,
+      "seed": 69,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.004576325416564941,
+        0.0011798590421676636
+      ]
+    },
+    {
+      "episode_id": 70,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000070.hdf5",
+      "start": 42883,
+      "end": 43449,
+      "num_steps": 566,
+      "seed": 70,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.025745272636413574,
+        -0.006483517587184906
+      ]
+    },
+    {
+      "episode_id": 71,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000071.hdf5",
+      "start": 43449,
+      "end": 44036,
+      "num_steps": 587,
+      "seed": 71,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.009455680847167969,
+        -0.002494223415851593
+      ]
+    },
+    {
+      "episode_id": 72,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000072.hdf5",
+      "start": 44036,
+      "end": 44631,
+      "num_steps": 595,
+      "seed": 72,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.006198227405548096,
+        -0.004628382623195648
+      ]
+    },
+    {
+      "episode_id": 73,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000073.hdf5",
+      "start": 44631,
+      "end": 45253,
+      "num_steps": 622,
+      "seed": 73,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.002440214157104492,
+        -0.002172313630580902
+      ]
+    },
+    {
+      "episode_id": 74,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000074.hdf5",
+      "start": 45253,
+      "end": 45833,
+      "num_steps": 580,
+      "seed": 74,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.022271573543548584,
+        -0.0011892467737197876
+      ]
+    },
+    {
+      "episode_id": 75,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000075.hdf5",
+      "start": 45833,
+      "end": 46533,
+      "num_steps": 700,
+      "seed": 75,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.03267168998718262,
+        -0.0027050673961639404
+      ]
+    },
+    {
+      "episode_id": 76,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000076.hdf5",
+      "start": 46533,
+      "end": 47155,
+      "num_steps": 622,
+      "seed": 76,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0035247802734375,
+        0.006109386682510376
+      ]
+    },
+    {
+      "episode_id": 77,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000077.hdf5",
+      "start": 47155,
+      "end": 47760,
+      "num_steps": 605,
+      "seed": 77,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0036277174949645996,
+        -0.002487659454345703
+      ]
+    },
+    {
+      "episode_id": 78,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000078.hdf5",
+      "start": 47760,
+      "end": 48335,
+      "num_steps": 575,
+      "seed": 78,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.011304855346679688,
+        -0.000828184187412262
+      ]
+    },
+    {
+      "episode_id": 79,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000079.hdf5",
+      "start": 48335,
+      "end": 48921,
+      "num_steps": 586,
+      "seed": 79,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.010002732276916504,
+        -0.0008822157979011536
+      ]
+    },
+    {
+      "episode_id": 80,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000080.hdf5",
+      "start": 48921,
+      "end": 49560,
+      "num_steps": 639,
+      "seed": 80,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.005217134952545166,
+        0.002774447202682495
+      ]
+    },
+    {
+      "episode_id": 81,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000081.hdf5",
+      "start": 49560,
+      "end": 50133,
+      "num_steps": 573,
+      "seed": 81,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.008028924465179443,
+        -0.002936519682407379
+      ]
+    },
+    {
+      "episode_id": 82,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000082.hdf5",
+      "start": 50133,
+      "end": 50689,
+      "num_steps": 556,
+      "seed": 82,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.01587146520614624,
+        -0.0015596970915794373
+      ]
+    },
+    {
+      "episode_id": 83,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000083.hdf5",
+      "start": 50689,
+      "end": 51329,
+      "num_steps": 640,
+      "seed": 83,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        7.253885269165039e-05,
+        0.0013011917471885681
+      ]
+    },
+    {
+      "episode_id": 84,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000084.hdf5",
+      "start": 51329,
+      "end": 51916,
+      "num_steps": 587,
+      "seed": 84,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.010142505168914795,
+        -0.0024130940437316895
+      ]
+    },
+    {
+      "episode_id": 85,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000085.hdf5",
+      "start": 51916,
+      "end": 52509,
+      "num_steps": 593,
+      "seed": 85,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.012833178043365479,
+        0.0013489127159118652
+      ]
+    },
+    {
+      "episode_id": 86,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000086.hdf5",
+      "start": 52509,
+      "end": 53131,
+      "num_steps": 622,
+      "seed": 86,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0006464719772338867,
+        -0.0010175257921218872
+      ]
+    },
+    {
+      "episode_id": 87,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000087.hdf5",
+      "start": 53131,
+      "end": 53739,
+      "num_steps": 608,
+      "seed": 87,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.008845150470733643,
+        0.0001375824213027954
+      ]
+    },
+    {
+      "episode_id": 88,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000088.hdf5",
+      "start": 53739,
+      "end": 54323,
+      "num_steps": 584,
+      "seed": 88,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.021878719329833984,
+        -0.00461394339799881
+      ]
+    },
+    {
+      "episode_id": 89,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000089.hdf5",
+      "start": 54323,
+      "end": 54954,
+      "num_steps": 631,
+      "seed": 89,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0017309784889221191,
+        0.0042909979820251465
+      ]
+    },
+    {
+      "episode_id": 90,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000090.hdf5",
+      "start": 54954,
+      "end": 55612,
+      "num_steps": 658,
+      "seed": 90,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.036041438579559326,
+        -0.006200551986694336
+      ]
+    },
+    {
+      "episode_id": 91,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000091.hdf5",
+      "start": 55612,
+      "end": 56215,
+      "num_steps": 603,
+      "seed": 91,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0025142431259155273,
+        0.005358397960662842
+      ]
+    },
+    {
+      "episode_id": 92,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000092.hdf5",
+      "start": 56215,
+      "end": 56741,
+      "num_steps": 526,
+      "seed": 92,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.029014647006988525,
+        -0.007872484624385834
+      ]
+    },
+    {
+      "episode_id": 93,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000093.hdf5",
+      "start": 56741,
+      "end": 57414,
+      "num_steps": 673,
+      "seed": 93,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.026058077812194824,
+        -0.007084615528583527
+      ]
+    },
+    {
+      "episode_id": 94,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000094.hdf5",
+      "start": 57414,
+      "end": 58042,
+      "num_steps": 628,
+      "seed": 94,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0011616349220275879,
+        0.005802735686302185
+      ]
+    },
+    {
+      "episode_id": 95,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000095.hdf5",
+      "start": 58042,
+      "end": 58627,
+      "num_steps": 585,
+      "seed": 95,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.009016990661621094,
+        0.002825140953063965
+      ]
+    },
+    {
+      "episode_id": 96,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000096.hdf5",
+      "start": 58627,
+      "end": 59217,
+      "num_steps": 590,
+      "seed": 96,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.014423966407775879,
+        0.004139125347137451
+      ]
+    },
+    {
+      "episode_id": 97,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000097.hdf5",
+      "start": 59217,
+      "end": 59750,
+      "num_steps": 533,
+      "seed": 97,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.028118789196014404,
+        -0.008420698344707489
+      ]
+    },
+    {
+      "episode_id": 98,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000098.hdf5",
+      "start": 59750,
+      "end": 60302,
+      "num_steps": 552,
+      "seed": 98,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.023412585258483887,
+        -0.008292563259601593
+      ]
+    },
+    {
+      "episode_id": 99,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000099.hdf5",
+      "start": 60302,
+      "end": 60889,
+      "num_steps": 587,
+      "seed": 99,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0187300443649292,
+        -0.0018661171197891235
+      ]
+    },
+    {
+      "episode_id": 100,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000100.hdf5",
+      "start": 60889,
+      "end": 61564,
+      "num_steps": 675,
+      "seed": 100,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.03459125757217407,
+        -0.004343107342720032
+      ]
+    },
+    {
+      "episode_id": 101,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000101.hdf5",
+      "start": 61564,
+      "end": 62180,
+      "num_steps": 616,
+      "seed": 101,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.001866459846496582,
+        0.0015098527073860168
+      ]
+    },
+    {
+      "episode_id": 102,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000102.hdf5",
+      "start": 62180,
+      "end": 62839,
+      "num_steps": 659,
+      "seed": 102,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0010429024696350098,
+        0.0019474029541015625
+      ]
+    },
+    {
+      "episode_id": 103,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000103.hdf5",
+      "start": 62839,
+      "end": 63453,
+      "num_steps": 614,
+      "seed": 103,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.02991265058517456,
+        -0.0076026469469070435
+      ]
+    },
+    {
+      "episode_id": 104,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000104.hdf5",
+      "start": 63453,
+      "end": 64060,
+      "num_steps": 607,
+      "seed": 104,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0033600926399230957,
+        0.001247704029083252
+      ]
+    },
+    {
+      "episode_id": 105,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000105.hdf5",
+      "start": 64060,
+      "end": 64711,
+      "num_steps": 651,
+      "seed": 105,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.007644593715667725,
+        0.002191692590713501
+      ]
+    },
+    {
+      "episode_id": 106,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000106.hdf5",
+      "start": 64711,
+      "end": 65308,
+      "num_steps": 597,
+      "seed": 106,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.027615904808044434,
+        -0.008436709642410278
+      ]
+    },
+    {
+      "episode_id": 107,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000107.hdf5",
+      "start": 65308,
+      "end": 65937,
+      "num_steps": 629,
+      "seed": 107,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.0009527802467346191,
+        0.006406247615814209
+      ]
+    },
+    {
+      "episode_id": 108,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000108.hdf5",
+      "start": 65937,
+      "end": 66558,
+      "num_steps": 621,
+      "seed": 108,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.004594326019287109,
+        0.004586115479469299
+      ]
+    },
+    {
+      "episode_id": 109,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000109.hdf5",
+      "start": 66558,
+      "end": 67144,
+      "num_steps": 586,
+      "seed": 109,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.020043492317199707,
+        -0.0030003488063812256
+      ]
+    },
+    {
+      "episode_id": 110,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000110.hdf5",
+      "start": 67144,
+      "end": 67705,
+      "num_steps": 561,
+      "seed": 110,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.022915244102478027,
+        -0.002955406904220581
+      ]
+    },
+    {
+      "episode_id": 111,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000111.hdf5",
+      "start": 67705,
+      "end": 68391,
+      "num_steps": 686,
+      "seed": 111,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0281602144241333,
+        -0.0045547932386398315
+      ]
+    },
+    {
+      "episode_id": 112,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000112.hdf5",
+      "start": 68391,
+      "end": 68999,
+      "num_steps": 608,
+      "seed": 112,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.004959166049957275,
+        -0.001195751130580902
+      ]
+    },
+    {
+      "episode_id": 113,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000113.hdf5",
+      "start": 68999,
+      "end": 69567,
+      "num_steps": 568,
+      "seed": 113,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.009340107440948486,
+        -0.0011110305786132812
+      ]
+    },
+    {
+      "episode_id": 114,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000114.hdf5",
+      "start": 69567,
+      "end": 70159,
+      "num_steps": 592,
+      "seed": 114,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.011954665184020996,
+        0.000536993145942688
+      ]
+    },
+    {
+      "episode_id": 115,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000115.hdf5",
+      "start": 70159,
+      "end": 70758,
+      "num_steps": 599,
+      "seed": 115,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.007974624633789062,
+        -0.0003237873315811157
+      ]
+    },
+    {
+      "episode_id": 116,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000116.hdf5",
+      "start": 70758,
+      "end": 71341,
+      "num_steps": 583,
+      "seed": 116,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.016535818576812744,
+        -0.00042489171028137207
+      ]
+    },
+    {
+      "episode_id": 117,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000117.hdf5",
+      "start": 71341,
+      "end": 71958,
+      "num_steps": 617,
+      "seed": 117,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.005528271198272705,
+        -0.0007394552230834961
+      ]
+    },
+    {
+      "episode_id": 118,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000118.hdf5",
+      "start": 71958,
+      "end": 72615,
+      "num_steps": 657,
+      "seed": 118,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0038167238235473633,
+        0.0045824795961380005
+      ]
+    },
+    {
+      "episode_id": 119,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000119.hdf5",
+      "start": 72615,
+      "end": 73217,
+      "num_steps": 602,
+      "seed": 119,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.011228501796722412,
+        -0.00567028671503067
+      ]
+    },
+    {
+      "episode_id": 120,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000120.hdf5",
+      "start": 73217,
+      "end": 73814,
+      "num_steps": 597,
+      "seed": 120,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.011261045932769775,
+        -0.0009963959455490112
+      ]
+    },
+    {
+      "episode_id": 121,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000121.hdf5",
+      "start": 73814,
+      "end": 74398,
+      "num_steps": 584,
+      "seed": 121,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.014210700988769531,
+        -0.0007661357522010803
+      ]
+    },
+    {
+      "episode_id": 122,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000122.hdf5",
+      "start": 74398,
+      "end": 75013,
+      "num_steps": 615,
+      "seed": 122,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.001541733741760254,
+        -0.002725273370742798
+      ]
+    },
+    {
+      "episode_id": 123,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000123.hdf5",
+      "start": 75013,
+      "end": 75631,
+      "num_steps": 618,
+      "seed": 123,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0012167096138000488,
+        0.0005097389221191406
+      ]
+    },
+    {
+      "episode_id": 124,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000124.hdf5",
+      "start": 75631,
+      "end": 76205,
+      "num_steps": 574,
+      "seed": 124,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.019268393516540527,
+        -0.0006507933139801025
+      ]
+    },
+    {
+      "episode_id": 125,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000125.hdf5",
+      "start": 76205,
+      "end": 76843,
+      "num_steps": 638,
+      "seed": 125,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.000409543514251709,
+        0.006759136915206909
+      ]
+    },
+    {
+      "episode_id": 126,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000126.hdf5",
+      "start": 76843,
+      "end": 77509,
+      "num_steps": 666,
+      "seed": 126,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.0016703605651855469,
+        0.007111042737960815
+      ]
+    },
+    {
+      "episode_id": 127,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000127.hdf5",
+      "start": 77509,
+      "end": 78188,
+      "num_steps": 679,
+      "seed": 127,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.004254698753356934,
+        0.006980821490287781
+      ]
+    },
+    {
+      "episode_id": 128,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000128.hdf5",
+      "start": 78188,
+      "end": 78852,
+      "num_steps": 664,
+      "seed": 128,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.0025931596755981445,
+        0.006784200668334961
+      ]
+    },
+    {
+      "episode_id": 129,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000129.hdf5",
+      "start": 78852,
+      "end": 79494,
+      "num_steps": 642,
+      "seed": 129,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.009401321411132812,
+        0.003686174750328064
+      ]
+    },
+    {
+      "episode_id": 130,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000130.hdf5",
+      "start": 79494,
+      "end": 80071,
+      "num_steps": 577,
+      "seed": 130,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.024503469467163086,
+        -0.0037612318992614746
+      ]
+    },
+    {
+      "episode_id": 131,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000131.hdf5",
+      "start": 80071,
+      "end": 80698,
+      "num_steps": 627,
+      "seed": 131,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.00029402971267700195,
+        0.004225179553031921
+      ]
+    },
+    {
+      "episode_id": 132,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000132.hdf5",
+      "start": 80698,
+      "end": 81334,
+      "num_steps": 636,
+      "seed": 132,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.025818824768066406,
+        -0.002532944083213806
+      ]
+    },
+    {
+      "episode_id": 133,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000133.hdf5",
+      "start": 81334,
+      "end": 82007,
+      "num_steps": 673,
+      "seed": 133,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.011104702949523926,
+        0.0009946078062057495
+      ]
+    },
+    {
+      "episode_id": 134,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000134.hdf5",
+      "start": 82007,
+      "end": 82630,
+      "num_steps": 623,
+      "seed": 134,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0018888115882873535,
+        0.004330947995185852
+      ]
+    },
+    {
+      "episode_id": 135,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000135.hdf5",
+      "start": 82630,
+      "end": 83279,
+      "num_steps": 649,
+      "seed": 135,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.0007557272911071777,
+        0.0020943433046340942
+      ]
+    },
+    {
+      "episode_id": 136,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000136.hdf5",
+      "start": 83279,
+      "end": 83928,
+      "num_steps": 649,
+      "seed": 136,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.005024969577789307,
+        -0.002933979034423828
+      ]
+    },
+    {
+      "episode_id": 137,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000137.hdf5",
+      "start": 83928,
+      "end": 84524,
+      "num_steps": 596,
+      "seed": 137,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.010309576988220215,
+        -0.000722929835319519
+      ]
+    },
+    {
+      "episode_id": 138,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000138.hdf5",
+      "start": 84524,
+      "end": 85130,
+      "num_steps": 606,
+      "seed": 138,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0017110109329223633,
+        -0.001854628324508667
+      ]
+    },
+    {
+      "episode_id": 139,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000139.hdf5",
+      "start": 85130,
+      "end": 85768,
+      "num_steps": 638,
+      "seed": 139,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.035548269748687744,
+        -0.009335421025753021
+      ]
+    },
+    {
+      "episode_id": 140,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000140.hdf5",
+      "start": 85768,
+      "end": 86352,
+      "num_steps": 584,
+      "seed": 140,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.018743932247161865,
+        -0.0041175708174705505
+      ]
+    },
+    {
+      "episode_id": 141,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000141.hdf5",
+      "start": 86352,
+      "end": 86930,
+      "num_steps": 578,
+      "seed": 141,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.019922196865081787,
+        -0.0033734291791915894
+      ]
+    },
+    {
+      "episode_id": 142,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000142.hdf5",
+      "start": 86930,
+      "end": 87496,
+      "num_steps": 566,
+      "seed": 142,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.023339033126831055,
+        -0.004458017647266388
+      ]
+    },
+    {
+      "episode_id": 143,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000143.hdf5",
+      "start": 87496,
+      "end": 88066,
+      "num_steps": 570,
+      "seed": 143,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.021648287773132324,
+        -0.0046997591853141785
+      ]
+    },
+    {
+      "episode_id": 144,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000144.hdf5",
+      "start": 88066,
+      "end": 88754,
+      "num_steps": 688,
+      "seed": 144,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.011468291282653809,
+        0.007022693753242493
+      ]
+    },
+    {
+      "episode_id": 145,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000145.hdf5",
+      "start": 88754,
+      "end": 89358,
+      "num_steps": 604,
+      "seed": 145,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.008158326148986816,
+        0.0032179951667785645
+      ]
+    },
+    {
+      "episode_id": 146,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000146.hdf5",
+      "start": 89358,
+      "end": 89965,
+      "num_steps": 607,
+      "seed": 146,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.004591464996337891,
+        0.002711191773414612
+      ]
+    },
+    {
+      "episode_id": 147,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000147.hdf5",
+      "start": 89965,
+      "end": 90560,
+      "num_steps": 595,
+      "seed": 147,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.015107154846191406,
+        -0.0006722807884216309
+      ]
+    },
+    {
+      "episode_id": 148,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000148.hdf5",
+      "start": 90560,
+      "end": 91169,
+      "num_steps": 609,
+      "seed": 148,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.002458930015563965,
+        -7.048249244689941e-06
+      ]
+    },
+    {
+      "episode_id": 149,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000149.hdf5",
+      "start": 91169,
+      "end": 91801,
+      "num_steps": 632,
+      "seed": 149,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.0017412900924682617,
+        0.007382020354270935
+      ]
+    },
+    {
+      "episode_id": 150,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000150.hdf5",
+      "start": 91801,
+      "end": 92414,
+      "num_steps": 613,
+      "seed": 150,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0061324238777160645,
+        -0.0023055672645568848
+      ]
+    },
+    {
+      "episode_id": 151,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000151.hdf5",
+      "start": 92414,
+      "end": 93000,
+      "num_steps": 586,
+      "seed": 151,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.010944247245788574,
+        0.003209933638572693
+      ]
+    },
+    {
+      "episode_id": 152,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000152.hdf5",
+      "start": 93000,
+      "end": 93635,
+      "num_steps": 635,
+      "seed": 152,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.001272439956665039,
+        0.0014691278338432312
+      ]
+    },
+    {
+      "episode_id": 153,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000153.hdf5",
+      "start": 93635,
+      "end": 94213,
+      "num_steps": 578,
+      "seed": 153,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.009964585304260254,
+        0.0018656402826309204
+      ]
+    },
+    {
+      "episode_id": 154,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000154.hdf5",
+      "start": 94213,
+      "end": 94861,
+      "num_steps": 648,
+      "seed": 154,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.03605031967163086,
+        -0.007009461522102356
+      ]
+    },
+    {
+      "episode_id": 155,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000155.hdf5",
+      "start": 94861,
+      "end": 95443,
+      "num_steps": 582,
+      "seed": 155,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.01298832893371582,
+        0.0026516616344451904
+      ]
+    },
+    {
+      "episode_id": 156,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000156.hdf5",
+      "start": 95443,
+      "end": 96102,
+      "num_steps": 659,
+      "seed": 156,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.0025649070739746094,
+        0.005977421998977661
+      ]
+    },
+    {
+      "episode_id": 157,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000157.hdf5",
+      "start": 96102,
+      "end": 96665,
+      "num_steps": 563,
+      "seed": 157,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.020834386348724365,
+        -0.0018596351146697998
+      ]
+    },
+    {
+      "episode_id": 158,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000158.hdf5",
+      "start": 96665,
+      "end": 97275,
+      "num_steps": 610,
+      "seed": 158,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.00032263994216918945,
+        0.007621556520462036
+      ]
+    },
+    {
+      "episode_id": 159,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000159.hdf5",
+      "start": 97275,
+      "end": 98003,
+      "num_steps": 728,
+      "seed": 159,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.022181153297424316,
+        -0.0027077794075012207
+      ]
+    },
+    {
+      "episode_id": 160,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000160.hdf5",
+      "start": 98003,
+      "end": 98575,
+      "num_steps": 572,
+      "seed": 160,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.023050665855407715,
+        -0.006226688623428345
+      ]
+    },
+    {
+      "episode_id": 161,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000161.hdf5",
+      "start": 98575,
+      "end": 99202,
+      "num_steps": 627,
+      "seed": 161,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.004095911979675293,
+        -0.0016596615314483643
+      ]
+    },
+    {
+      "episode_id": 162,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000162.hdf5",
+      "start": 99202,
+      "end": 99751,
+      "num_steps": 549,
+      "seed": 162,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.024648666381835938,
+        -0.00677906721830368
+      ]
+    },
+    {
+      "episode_id": 163,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000163.hdf5",
+      "start": 99751,
+      "end": 100311,
+      "num_steps": 560,
+      "seed": 163,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.02291238307952881,
+        -0.007153019309043884
+      ]
+    },
+    {
+      "episode_id": 164,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000164.hdf5",
+      "start": 100311,
+      "end": 100866,
+      "num_steps": 555,
+      "seed": 164,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.02084428071975708,
+        -0.006613790988922119
+      ]
+    },
+    {
+      "episode_id": 165,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000165.hdf5",
+      "start": 100866,
+      "end": 101484,
+      "num_steps": 618,
+      "seed": 165,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.022450268268585205,
+        -0.0027390867471694946
+      ]
+    },
+    {
+      "episode_id": 166,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000166.hdf5",
+      "start": 101484,
+      "end": 102073,
+      "num_steps": 589,
+      "seed": 166,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.011671006679534912,
+        -0.003653094172477722
+      ]
+    },
+    {
+      "episode_id": 167,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000167.hdf5",
+      "start": 102073,
+      "end": 102690,
+      "num_steps": 617,
+      "seed": 167,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.024252772331237793,
+        -0.0038155168294906616
+      ]
+    },
+    {
+      "episode_id": 168,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000168.hdf5",
+      "start": 102690,
+      "end": 103269,
+      "num_steps": 579,
+      "seed": 168,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.02308940887451172,
+        -0.0034859031438827515
+      ]
+    },
+    {
+      "episode_id": 169,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000169.hdf5",
+      "start": 103269,
+      "end": 103912,
+      "num_steps": 643,
+      "seed": 169,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0006090998649597168,
+        0.0040711164474487305
+      ]
+    },
+    {
+      "episode_id": 170,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000170.hdf5",
+      "start": 103912,
+      "end": 104439,
+      "num_steps": 527,
+      "seed": 170,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.027719080448150635,
+        -0.007480010390281677
+      ]
+    },
+    {
+      "episode_id": 171,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000171.hdf5",
+      "start": 104439,
+      "end": 105036,
+      "num_steps": 597,
+      "seed": 171,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.006184995174407959,
+        -0.00011058896780014038
+      ]
+    },
+    {
+      "episode_id": 172,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000172.hdf5",
+      "start": 105036,
+      "end": 105633,
+      "num_steps": 597,
+      "seed": 172,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0113602876663208,
+        0.0006923675537109375
+      ]
+    },
+    {
+      "episode_id": 173,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000173.hdf5",
+      "start": 105633,
+      "end": 106239,
+      "num_steps": 606,
+      "seed": 173,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0035344362258911133,
+        -0.000898316502571106
+      ]
+    },
+    {
+      "episode_id": 174,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000174.hdf5",
+      "start": 106239,
+      "end": 106922,
+      "num_steps": 683,
+      "seed": 174,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.004309415817260742,
+        0.00772114098072052
+      ]
+    },
+    {
+      "episode_id": 175,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000175.hdf5",
+      "start": 106922,
+      "end": 107530,
+      "num_steps": 608,
+      "seed": 175,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0040321946144104,
+        -0.0011598989367485046
+      ]
+    },
+    {
+      "episode_id": 176,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000176.hdf5",
+      "start": 107530,
+      "end": 108160,
+      "num_steps": 630,
+      "seed": 176,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.009534597396850586,
+        -0.005927577614784241
+      ]
+    },
+    {
+      "episode_id": 177,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000177.hdf5",
+      "start": 108160,
+      "end": 108840,
+      "num_steps": 680,
+      "seed": 177,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.029619932174682617,
+        -0.005133762955665588
+      ]
+    },
+    {
+      "episode_id": 178,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000178.hdf5",
+      "start": 108840,
+      "end": 109480,
+      "num_steps": 640,
+      "seed": 178,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.00015866756439208984,
+        0.004979774355888367
+      ]
+    },
+    {
+      "episode_id": 179,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000179.hdf5",
+      "start": 109480,
+      "end": 110101,
+      "num_steps": 621,
+      "seed": 179,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.031294047832489014,
+        -0.005416899919509888
+      ]
+    },
+    {
+      "episode_id": 180,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000180.hdf5",
+      "start": 110101,
+      "end": 110696,
+      "num_steps": 595,
+      "seed": 180,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.009055912494659424,
+        0.004605010151863098
+      ]
+    },
+    {
+      "episode_id": 181,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000181.hdf5",
+      "start": 110696,
+      "end": 111333,
+      "num_steps": 637,
+      "seed": 181,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.02188628911972046,
+        -0.0051462724804878235
+      ]
+    },
+    {
+      "episode_id": 182,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000182.hdf5",
+      "start": 111333,
+      "end": 111940,
+      "num_steps": 607,
+      "seed": 182,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.016285479068756104,
+        -0.0068236663937568665
+      ]
+    },
+    {
+      "episode_id": 183,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000183.hdf5",
+      "start": 111940,
+      "end": 112575,
+      "num_steps": 635,
+      "seed": 183,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        0.0012133121490478516,
+        -0.0001714453101158142
+      ]
+    },
+    {
+      "episode_id": 184,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000184.hdf5",
+      "start": 112575,
+      "end": 113176,
+      "num_steps": 601,
+      "seed": 184,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.023574411869049072,
+        -0.006597362458705902
+      ]
+    },
+    {
+      "episode_id": 185,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000185.hdf5",
+      "start": 113176,
+      "end": 113738,
+      "num_steps": 562,
+      "seed": 185,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.01706242561340332,
+        -0.0032090172171592712
+      ]
+    },
+    {
+      "episode_id": 186,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000186.hdf5",
+      "start": 113738,
+      "end": 114311,
+      "num_steps": 573,
+      "seed": 186,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.018451452255249023,
+        -0.0008420497179031372
+      ]
+    },
+    {
+      "episode_id": 187,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000187.hdf5",
+      "start": 114311,
+      "end": 114919,
+      "num_steps": 608,
+      "seed": 187,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0003681182861328125,
+        -0.002138100564479828
+      ]
+    },
+    {
+      "episode_id": 188,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000188.hdf5",
+      "start": 114919,
+      "end": 115533,
+      "num_steps": 614,
+      "seed": 188,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0046187639236450195,
+        -0.00212126225233078
+      ]
+    },
+    {
+      "episode_id": 189,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000189.hdf5",
+      "start": 115533,
+      "end": 116092,
+      "num_steps": 559,
+      "seed": 189,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.02471691370010376,
+        -0.008663475513458252
+      ]
+    },
+    {
+      "episode_id": 190,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000190.hdf5",
+      "start": 116092,
+      "end": 116676,
+      "num_steps": 584,
+      "seed": 190,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.005957663059234619,
+        -0.0010196864604949951
+      ]
+    },
+    {
+      "episode_id": 191,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000191.hdf5",
+      "start": 116676,
+      "end": 117271,
+      "num_steps": 595,
+      "seed": 191,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.012468338012695312,
+        0.0029365718364715576
+      ]
+    },
+    {
+      "episode_id": 192,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000192.hdf5",
+      "start": 117271,
+      "end": 117871,
+      "num_steps": 600,
+      "seed": 192,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.008631110191345215,
+        0.0011477172374725342
+      ]
+    },
+    {
+      "episode_id": 193,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000193.hdf5",
+      "start": 117871,
+      "end": 118453,
+      "num_steps": 582,
+      "seed": 193,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.012249529361724854,
+        -0.0009078681468963623
+      ]
+    },
+    {
+      "episode_id": 194,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000194.hdf5",
+      "start": 118453,
+      "end": 119014,
+      "num_steps": 561,
+      "seed": 194,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.012148499488830566,
+        -0.000436343252658844
+      ]
+    },
+    {
+      "episode_id": 195,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000195.hdf5",
+      "start": 119014,
+      "end": 119609,
+      "num_steps": 595,
+      "seed": 195,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.01405346393585205,
+        -0.0009328126907348633
+      ]
+    },
+    {
+      "episode_id": 196,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000196.hdf5",
+      "start": 119609,
+      "end": 120174,
+      "num_steps": 565,
+      "seed": 196,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.024339795112609863,
+        -0.006300278007984161
+      ]
+    },
+    {
+      "episode_id": 197,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000197.hdf5",
+      "start": 120174,
+      "end": 120790,
+      "num_steps": 616,
+      "seed": 197,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0019951462745666504,
+        -0.0015316605567932129
+      ]
+    },
+    {
+      "episode_id": 198,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000198.hdf5",
+      "start": 120790,
+      "end": 121368,
+      "num_steps": 578,
+      "seed": 198,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.017784714698791504,
+        -0.003857716917991638
+      ]
+    },
+    {
+      "episode_id": 199,
+      "source_path": "/home/cyw/panda_vla_project/data/raw/pick_place_scripted_200/episode_000199.hdf5",
+      "start": 121368,
+      "end": 121918,
+      "num_steps": 550,
+      "seed": 199,
+      "valid_demo": true,
+      "success": true,
+      "final_place_error": [
+        -0.0131378173828125,
+        -0.002369008958339691
+      ]
+    }
+  ],
+  "skipped": []
+}

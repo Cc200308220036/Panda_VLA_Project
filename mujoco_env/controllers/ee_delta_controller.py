@@ -1,6 +1,6 @@
 import numpy as np
 
-from controllers.ik_solver import PandaIKSolver
+from mujoco_env.controllers.ik_solver import PandaIKSolver
 
 
 class EEDeltaController:

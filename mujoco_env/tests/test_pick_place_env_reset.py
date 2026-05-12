@@ -1,6 +1,6 @@
 import cv2
 
-from envs.pick_place_env import PickPlaceEnv
+from mujoco_env.envs.pick_place_env import PickPlaceEnv
 
 
 def main():
